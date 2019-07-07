@@ -2,58 +2,63 @@
 <html>
 <head>
 	<title>My web page</title>
-	<style type="text/css">
-	/*body {background: url("back.png");} */
-	aside {
-		
-		width: 20%;
-	
-	}
-	article {
-		width: 80%;
-	}
-	img:hover{  }
-	main {
-		display: flex;
-		margin-left: 40px;
-		margin-right: 40px;
-	}
+	<link rel="stylesheet" type="text/css" href="style.css">
 
-	p:hover { color: white; }
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-	footer {
-		margin-left: 40px;
-		margin-right: 40px;
-	}
-</style>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
-	<header><h1 style="text-align: center">Welcome blog</h1></header>
-	<main>
-		<aside>
-			<!-- WHAT IS THIS???? -->
-			<ul>
-				<li>test1</li>
-				<li>test2</li>
-				<li>test3</li>
-			</ul>
-		</aside>
-		<article>
-			<b>Main</b>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet voluptas aliquam, saepe eius nulla quibusdam libero odio soluta alias voluptate rerum voluptates tempora ipsum, quod vitae! Voluptatem, nam inventore!<I> WHAADWADWU </I> IWHAD WDJ WADI</p>
-			<center>
-				<img src="back.png" alt="back baru" height="300px" width="auto"> 
-			</center>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae qui dolor hic mollitia ipsa beatae praesentium, voluptate distinctio est explicabo rerum deserunt consequuntur, odio provident, modi reprehenderit architecto vitae illo.</p>
-		</article>
-	</main>
-	<hr>
-	<footer>
 
-		<h3>&copy;
-		Copyrights acclaimed to media co
-		</h3>
-	</footer>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container-fluid full-height">
+	<div class="row">
+		<div class="col"> 
+			<div class="container">
+				<div class="row">
+				 <div class="col pt-50">
+
+				 	<H1> BRAND </H1>
+				 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nam laboriosam alias reiciendis atque illo, at. Corporis molestias quibusdam, sequi rerum qui minima ipsam repellat illum eius perspiciatis, iste quia.</p>
+				 	<button class="btn btn-primary btn-lg">Buy now!</button>
+				 </div>
+				</div>
+			</div>
+		 </div>
+		<div class="col bg-secondary"> right </div>
+	</div>
+</div>
 
 </body>
 </html>

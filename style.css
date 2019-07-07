@@ -26,3 +26,10 @@ footer {
 	margin-left: 40px;
 	margin-right: 40px;
 }
+
+.full-height {
+	min-height: 100%;
+}
+.pt-50 {
+	padding-top: 150px !important;
+}
